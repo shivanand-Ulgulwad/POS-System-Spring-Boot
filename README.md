@@ -234,9 +234,9 @@ git clone https://github.com/your-username/your-repository-name.git
 Update your `application.properties`
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/pos_system
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+spring.datasource.url=YOUR_DATABASE_URL
+spring.datasource.username=USERNAME
+spring.datasource.password=YOUR_PASSWORD
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
